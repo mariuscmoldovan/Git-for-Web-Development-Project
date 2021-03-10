@@ -1,0 +1,96 @@
+    
+    https://codepen.io/mariusmoldovan/pen/poNQeZL?editors=1100
+    
+    
+    
+    1. What is Semantic HTML? 
+         Semantic HTML  describe tags with meaning.
+
+    2. What is HTML used for? 
+        HTML is one of the languages we use for web development.
+
+    3. What is an attribute and where do we put it? 
+         Attribute is  information that we don't want to render on the page (like the link to an image).
+         We add the attribute after the element.
+    4. What is the h1 tag used for? How many times should I use it on a page?
+        We used to indicate the heading on a website.
+        We use indicate only once.
+    5. Name two tags that have required attributes
+        -"a" tag
+        -"img" tag
+    6. What do we put in the head of our HTML document? 
+         It contains information such as the page <title>, links to CSS
+    7. What is an id? 
+        A attribute with a unique value
+    8. What elements can I add an id to? 
+         To all elements   
+    9. How many times can I use the same id on a page? 
+       Only one time.
+    10. What is a class? 
+         Select and access specific elements.
+
+    11. What elements can I add a class to? 
+        One or ,ore element.
+    12. How many times can I use the same class on a page? 
+        Multiple time.
+    13. How do I get my link to open in a new tab?
+        With "a href" tag
+    14. What is the alt attribute in the image tag used for? 
+        Alternative option, if the image will not open.
+    15. How do I reference an id?
+        With "#".
+    16. What is the difference between a section and a div
+    17. What is CSS used for? 
+          To style Web pages, including colors, layout, and fonts.
+    18. How to we select an element? Example - every h2 on the page
+          With "h2".
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        A class will contain multiple element.
+        A id will select only on element.
+    20. How do we select classes in CSS?
+        With "." notation.
+    21. How do we select a p element with a single class of “human””?
+       p .human
+    22. What is a parent child selector? When would this be useful? 
+        When we want to select a element or multiple elements.
+    23. How do you select all links within a div with the class of sidebar?
+         Div .sidebar
+    24. What is a pseudo selector?
+         A pseudo-class is used to define a special state of an element.
+    25. What do we use the change the spacing between lines?
+        We use line-height property.
+    26. What do we use to change the spacing between letters?
+        We use letter-spacing.
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        We use text-transform.
+    28. How do I add a 1px border around my div that is dotted and black?
+           div{border-style: dotted;
+            border-color: black;
+            border-width: 1px;}
+    29. How do I select everything on the page? 
+        With "*".
+    30. How do I write a comment in CSS?
+        /* How do I write a comment in CSS? */
+    31. How do I find out what file I am in, when I am using the command line? 
+        With  "pwd" command.
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    With "ls" command.
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        With "rm " command. Permanently delete of file.
+    34. Why should I use version control? 
+        To be up to date with all the changes  from the project.
+    35. How often should I commit to github?
+        Often, when a change is made.
+    36. What is the command we would use to push our repo up to github? 
+        Git push/ git push -u origin.
+    37. Walk me through Lambda's git flow. 
+        1. Fork repo
+        2. Clone repo
+        3. Clone repo in the directory ( git clone command)
+        4. cd into the newly created repo using the cd command
+        5. create your own branch name for the repo (Use the git checkout -b 'firstname-lastname')
+        6. git add. command to add changes
+        7. git commit -m "" commit changes with detail message
+        8. git push -u origin branch-name will push all commits from  local machine up onto github
+        9. git pull
+        
